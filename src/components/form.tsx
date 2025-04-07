@@ -52,6 +52,7 @@ export default function Form() {
             }
         }catch (err){
             console.log(err)
+            setIsLoading(false);
             toast.error("Une erreur est survenue lors de l'envoi du message. Veuillez réessayer en respectant les formats et les champs requis, ou contactez-moi directement par e-mail.")
         }
     }
