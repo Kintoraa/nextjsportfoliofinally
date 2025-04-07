@@ -12,7 +12,7 @@ export default function About() {
            <motion.div
                initial={{ opacity: 0, y: 50 }}
                whileInView={{ opacity: 1, y: 0 }}
-               transition={{ duration: 0.6, ease: "easeOut" }}
+               transition={{ duration: 0.8, ease: "easeOut" }}
                viewport={{ once: true }}
                className={"text-center flex flex-col gap-5"}>
            <h2 className={"text-3xl font-bold"}>A propos de Moi</h2>
@@ -23,7 +23,7 @@ export default function About() {
 
                        initial={{ opacity: 0, y: 50 }}
                        whileInView={{ opacity: 1, y: 0 }}
-                       transition={{ duration: 0.6, ease: "easeOut" }}
+                       transition={{ duration: 0.8, ease: "easeOut" }}
                        viewport={{ once: true }}
            className={"pt-10 md:grid md:grid-cols-2 md:gap-4 md:items-center "}>
                    <div className={"flex justify-center order-2"}>

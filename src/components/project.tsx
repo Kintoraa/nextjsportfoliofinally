@@ -33,7 +33,7 @@ export default function Project() {
                  <p className={"text-center text-[#94a3b8]"}>Voici quelques-uns des projets sur lesquels j'ai travaillé</p>
                  <div className="absolute bg-gradient-to-r from-[#0ea5e9] to-[#8b5cf6] text-transparent bg-clip-text  h-1 w-0">
               </div>
-                 <div className={" lg:grid-cols-3"}>
+                 <div className={"lg:grid lg:grid-cols-3"}>
                      {projects.map((project, i) => (
                          <ProjectCard key={i} bgUrl={project.bgUrl} title={project.title} description={project.description} target={project.target}>
                              <>

@@ -5,7 +5,7 @@ import Image from "next/image";
 import react from "../../public/img/logo/react3d.png"
 import tailwind from "../../public/img/logo/tailwind.png"
 import sql from "../../public/img/logo/sql.png"
-import express from "../../public/img/logo/express.svg"
+import express from "../../public/img/logoProject/icons8-express-js.svg"
 import ts from "../../public/img/logo/typescript.png"
 import nodeJS from "../../public/img/logo/nodejs.png"
 import github from "../../public/img/logo/github.png"
@@ -27,7 +27,7 @@ export default function Tech(){
                         Mes Technologies
                     </motion.span>
                 </h2>
-                <p className={"text-center text-[#94a3b8] max-w-[500px] m-auto"}>Voici les technologies avec lesquelles je travaille actuellement. Elles ne sont pas gravées dans le marbre, je suis toujours prêt à m’adapter, apprendre et évoluer selon les besoins du projet.</p>
+                <p className={"text-center text-[#94a3b8] max-w-[500px] m-auto"}>Voici les technologies avec lesquelles je travaille actuellement. <strong>Elles ne sont pas gravées dans le marbre, je suis toujours prêt à m’adapter, apprendre et évoluer selon les besoins du projet. </strong></p>
                 <div className={"grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] lg:grid-cols-4 gap-4"}>
                     {techs.map((tech, i) => (
                     <TechCard key={i} img={tech.img} title={tech.title} description={tech.description} />

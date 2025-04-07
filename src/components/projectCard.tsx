@@ -21,7 +21,7 @@ export default function ProjectCard({title, description, children, bgUrl, target
                     <h1 className={"text-white font-bold"}>{title}</h1>
                     <p className={"text-[#94a3b8]"}>{description}</p>
                 </div>
-                <div className={"flex justify-center py-5 "}>
+                <div className={"flex justify-center py-5 gap-5 "}>
                     {children}
                 </div>
                 <div className={"flex justify-center pt-5"}>
