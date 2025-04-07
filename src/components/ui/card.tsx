@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 
 function Card({ className, ...props }: React.ComponentProps<"div">) {
   return (
+      // @ts-ignore
     <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
