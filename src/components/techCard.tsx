@@ -1,6 +1,5 @@
 "use client"
 import Image, {StaticImageData} from "next/image";
-import logo from "../../public/img/logo/react3d.png"
 import { motion } from "framer-motion";
 
 export default function  TechCard({title, description, img}: TechCardProps) {

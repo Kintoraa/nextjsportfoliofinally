@@ -16,7 +16,7 @@ export default function Form() {
     const [isLoading, setIsLoading] = useState(false);
     const [isSucces, setIsSucces] = useState(false);
 
-    const sendEmail = (formData : any) => {
+    const sendEmail = (formData : FormData) => {
         const dataForm = {
             name: formData.get("name") as string,
             email: formData.get("email") as string,
@@ -51,7 +51,8 @@ export default function Form() {
 
             }
         }catch (err){
-            console.log("test")
+            console.log(err)
+            toast.error("Une erreur est survenue lors de l'envoi du message. Veuillez réessayer en respectant les formats et les champs requis, ou contactez-moi directement par e-mail.")
         }
     }
 

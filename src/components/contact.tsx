@@ -1,6 +1,5 @@
 "use client"
 import {motion} from "framer-motion";
-import TechCard from "@/components/techCard";
 import {Mail, MapPin} from "lucide-react";
 import Form from "@/components/form";
 
@@ -45,15 +44,8 @@ export default function Contact() {
                 </div>
 
             </div>
-            <>
-                {/*<div className="absolute top-20 left-[10%] text-primary/20 text-4xl animate-float-slow">⚛️</div>*/}
-                {/*<div className="absolute top-40 right-[15%] text-primary/20 text-4xl animate-float-medium">▲</div>*/}
-                {/*<div className="absolute bottom-20 left-[20%] text-primary/20 text-4xl animate-float-fast">𝐉𝐒</div>*/}
-                {/*<div className="absolute bottom-40 right-[25%] text-primary/20 text-4xl animate-float-slow">🎨</div>*/}
-                {/*<div className="absolute top-40 right-10 w-64 h-64 bg-[#0ea5e9]/5 rounded-full blur-3xl"></div>*/}
                 <div className="absolute top-0  z-0 right-0 w-64 h-64 bg-[#0ea5e9]/15 rounded-full blur-3xl"></div>
                 <div className="absolute -top-10 z-0 left-10 w-96 h-96 bg-[#0ea5e9]/10 rounded-full blur-3xl"></div>
-            </>
         </section>
     )
 }
