@@ -61,25 +61,25 @@ export default function Hero() {
                     <p ref={descRef} className="text-xl text-[#94a3b8] mb-8 opacity-0">
                         Je construis des applications web modernes avec React et Next. Passionné par la création de site internet
                     </p>
-                    <div ref={buttonsRef} className="flex flex-wrap gap-4 opacity-0">
+                    <div ref={buttonsRef} className="flex z-40 flex-wrap gap-4 opacity-0">
                         <Link
                             href="#projects"
-                            className="inline-flex cursor-pointer cur items-center justify-center px-6 py-3 text-base font-medium rounded-md text-white bg-[#0ea5e9] hover:bg-[#0ea5e9]/80 transition-all duration-300 transform hover:-translate-y-1"
+                            className="inline-flex cursor-pointer z-50 cur items-center justify-center px-6 py-3 text-base font-medium rounded-md text-white bg-[#0ea5e9] hover:bg-[#0ea5e9]/80 transition-all duration-300 transform hover:-translate-y-1"
                         >
                             Voir Mes Projets
                         </Link>
                         <Link
                             href="#contact"
-                            className="inline-flex cursor-pointer items-center justify-center px-6 py-3 text-base font-medium rounded-md text-[#0ea5e9] border border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all duration-300 transform hover:-translate-y-1"
+                            className="inline-flex cursor-pointer z-50 items-center justify-center px-6 py-3 text-base font-medium rounded-md text-[#0ea5e9] border border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all duration-300 transform hover:-translate-y-1"
                         >
                             Me Contacter
                         </Link>
                     </div>
                 </div>
             </div>
-            <div className="absolute top-0 right-50 w-64 h-64 bg-[#0ea5e9]/5 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-20 left-110 w-96 h-96 bg-[#0ea5e9]/10 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-90 left-10 w-96 h-96 bg-[#0ea5e9]/10 rounded-full blur-3xl"></div>
+            <div className="absolute top-0 right-50 -z-10 w-64 h-64 bg-[#0ea5e9]/5 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-20 left-110 z-10 w-96 h-96 bg-[#0ea5e9]/10 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-90 left-10 z-10 w-96 h-96 bg-[#0ea5e9]/10 rounded-full blur-3xl"></div>
         </section>
     )
 }

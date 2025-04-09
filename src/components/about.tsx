@@ -16,7 +16,7 @@ export default function About() {
                viewport={{ once: true }}
                className={"text-center flex flex-col gap-5"}>
            <h2 className={"text-3xl font-bold"}>A propos de Moi</h2>
-           <p className={"text-[#94a3b8]"}>Découvrez mon parcoursn mes passions et ce qui me motive en tant que développeur.</p>
+           <p className={"text-[#94a3b8]"}>Découvrez mon parcours mes passions et ce qui me motive en tant que développeur.</p>
            </motion.div>
            <div>
                <motion.div
