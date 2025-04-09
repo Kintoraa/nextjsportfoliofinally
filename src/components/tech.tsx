@@ -26,7 +26,7 @@ export default function Tech(){
                     </motion.span>
                 </h2>
                 <p className={"text-center text-[#94a3b8] max-w-[500px] m-auto"}>Voici les technologies avec lesquelles je travaille actuellement. <strong>Elles ne sont pas gravées dans le marbre, je suis toujours prêt à m’adapter, apprendre et évoluer selon les besoins du projet. </strong></p>
-                <div className={"grid justify-center grid-cols-[repeat(auto-fit,minmax(200px,1fr))] lg:grid-cols-4 gap-4"}>
+                <div className={"grid justify-center justify-items-center grid-cols-[repeat(auto-fit,minmax(200px,1fr))] lg:grid-cols-4 gap-4"}>
                     {techs.map((tech, i) => (
                     <TechCard key={i} img={tech.img} title={tech.title} description={tech.description} />
                     ))}
