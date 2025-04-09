@@ -44,8 +44,8 @@ export default function About() {
                    </div>
                    <div className={"flex flex-col gap-5 p-2 order-1"}>
                    <h2 className={"text-2xl font-bold"}>Qui suis-je ?</h2>
-                   <p>Je suis un développeur frontend passionné par la création d'interfaces utilisateur modernes et intuitives. Avec une solide expérience en React et Next.js, je m'efforce de créer des applications web performantes et accessibles.</p>
-                   <p>Mon parcours dans le développement web a commencé il y a plusieurs années, et depuis, j'ai travaillé sur divers projets allant des sites vitrines aux applications web complexes. J'aime résoudre des problèmes et apprendre constamment de nouvelles technologies.</p>
+                   <p>Je suis un développeur frontend passionné, reconverti après une première carrière dans l’armée de l’air. Attiré depuis toujours par le monde de la tech, j’ai décidé de suivre ma passion en me formant d’abord en autodidacte, puis en suivant une formation spécialisée pour approfondir mes compétences.</p>
+                   <p>Aujourd’hui, je me concentre sur la création d’interfaces modernes et intuitives, en utilisant des technologies comme React et Next.js. Mon objectif est de développer des applications web performantes, accessibles et centrées sur l’utilisateur. Curieux et rigoureux, j’aime relever de nouveaux défis techniques et continuer à apprendre au quotidien.</p>
                    <h3 className={"font-bold"}>Ce qui me passione : </h3>
                    <div className={"flex gap-2"}>
                        {skills.map((skill, i) => (
@@ -66,7 +66,7 @@ export default function About() {
                        <motion.p    initial={{ opacity: 0, y: 50 }}
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 1, ease: "easeOut" }}
-                                    viewport={{ once: true }}>Quand je ne code pas, vous pouvez me trouver en train de lire sur les dernières tendances tech, de faire du sport, ou d'explorer de nouveaux endroits. J'aime également partager mes connaissances et aider d'autres développeurs à progresser.</motion.p>
+                                    viewport={{ once: true }}>Quand je ne suis pas devant mon éditeur de code, je suis souvent en train de jouer. Passionné de jeux vidéo depuis toujours, j’adore explorer de nouveaux univers, me plonger dans des ambiances bien travaillées et m’inspirer de tout ce que ce milieu peut apporter en termes de design, de logique ou d’interaction.</motion.p>
                    </div>
                </motion.div>
            </div>
@@ -82,7 +82,7 @@ export default function About() {
 }
 
 const skills = [
-    "Nouvelles Technologies", "Gaming", "Programmation"
+    "Nouvelles Technologies", "Gaming", "Hardware", "Programmation"
 ]
 
 const skillCards = [
