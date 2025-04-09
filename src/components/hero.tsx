@@ -64,13 +64,13 @@ export default function Hero() {
                     <div ref={buttonsRef} className="flex z-40 flex-wrap gap-4 opacity-0">
                         <Link
                             href="#projects"
-                            className="inline-flex cursor-pointer z-50 cur items-center justify-center px-6 py-3 text-base font-medium rounded-md text-white bg-[#0ea5e9] hover:bg-[#0ea5e9]/80 transition-all duration-300 transform hover:-translate-y-1"
+                            className="inline-flex cursor-pointer  z-50 cur items-center justify-center px-6 py-3 text-base font-medium rounded-md text-white bg-[#0ea5e9] hover:bg-[#0ea5e9]/80 transition-all duration-300 transform hover:-translate-y-1"
                         >
                             Voir Mes Projets
                         </Link>
                         <Link
                             href="#contact"
-                            className="inline-flex cursor-pointer z-50 items-center justify-center px-6 py-3 text-base font-medium rounded-md text-[#0ea5e9] border border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all duration-300 transform hover:-translate-y-1"
+                            className="inline-flex cursor-pointer  z-50 items-center justify-center px-6 py-3 text-base font-medium rounded-md text-[#0ea5e9] border border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all duration-300 transform hover:-translate-y-1"
                         >
                             Me Contacter
                         </Link>

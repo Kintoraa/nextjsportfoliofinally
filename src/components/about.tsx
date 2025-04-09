@@ -47,7 +47,7 @@ export default function About() {
                    <p>Je suis un développeur frontend passionné, reconverti après une première carrière dans l’armée de l’air. Attiré depuis toujours par le monde de la tech, j’ai décidé de suivre ma passion en me formant d’abord en autodidacte, puis en suivant une formation spécialisée pour approfondir mes compétences.</p>
                    <p>Aujourd’hui, je me concentre sur la création d’interfaces modernes et intuitives, en utilisant des technologies comme React et Next.js. Mon objectif est de développer des applications web performantes, accessibles et centrées sur l’utilisateur. Curieux et rigoureux, j’aime relever de nouveaux défis techniques et continuer à apprendre au quotidien.</p>
                    <h3 className={"font-bold"}>Ce qui me passione : </h3>
-                   <div className={" flex gap-2"}>
+                   <div className={"flex w-48 gap-4 flex-col sm:flex-row "}>
                        {skills.map((skill, i) => (
                        <motion.span
                            initial={{ opacity: 0, x: 50 }}
