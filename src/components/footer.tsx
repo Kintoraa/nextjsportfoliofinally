@@ -12,31 +12,13 @@ export default function Footer() {
 
                     <div className="flex space-x-4">
                         <a
-                            href="https://github.com/yourusername"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-[#94a3b8] hover:text-[#0ea5e9] transition-colors transform hover:scale-110 duration-300"
-                        >
-                            <Github size={20}  />
-                            <span className="sr-only">GitHub</span>
-                        </a>
-                        <a
-                            href="https://linkedin.com/in/yourusername"
+                            href="https://www.linkedin.com/in/alexis-zanini-78803830b/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-[#94a3b8] hover:text-[#0ea5e9] transition-colors transform hover:scale-110 duration-300"
                         >
                             <Linkedin size={20} />
                             <span className="sr-only">LinkedIn</span>
-                        </a>
-                        <a
-                            href="https://twitter.com/yourusername"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-[#94a3b8] hover:text-[#0ea5e9] transition-colors transform hover:scale-110 duration-300"
-                        >
-                            <Twitter size={20} />
-                            <span className="sr-only">Twitter</span>
                         </a>
                     </div>
                 </div>
