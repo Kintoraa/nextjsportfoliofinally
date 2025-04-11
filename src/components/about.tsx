@@ -34,7 +34,7 @@ export default function About() {
                        viewport={{ once: true }}
                        className=" relative w-64 h-64 md:w-80 md:h-80 items-center rounded-full overflow-hidden border-4 border-[#0ea5e9]/30 shadow-lg shadow-[#0ea5e9]/20 group">
                        <Image
-                           src={""}
+                           src={bg}
                            alt="Photo de profil"
                            className="object-cover transition-transform duration-700 "
                        />

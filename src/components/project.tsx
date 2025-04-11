@@ -74,9 +74,8 @@ Système de connexion avec un dashboard admin complet pour modifier dynamiquemen
         title: "Site vitrine pour une naturopathe 🌿",
         description: "Site vitrine pour une naturopathe présentant ses services, sa philosophie et ses coordonnées.",
         bgUrl: bgNaturo,
-        target: "https://",
+        target: "https://naturopathe-bmestivier-vosges.fr/",
         imgLibs: [jsLogo, htmlLogo, cssLogo]
     },
 ]
 
-// naturopathe-bmestivier-vosges.fr/
