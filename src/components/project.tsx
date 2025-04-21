@@ -9,6 +9,7 @@ import cssLogo from "../../public/img/logoProject/icons8-css.svg";
 import htmlLogo from "../../public/img/logoProject/icons8-html.svg";
 import typeScriptLogo from "../../public/img/logoProject/typescript.svg";
 import reactLogo from "../../public/img/logoProject/react.svg";
+import bgPeinture from "../../public/img/project/peintre.png"
 import sqlLogo from "../../public/img/logoProject/sql.svg"
 import bgSC from "../../public/img/project/starcraft.png"
 import bgGite from "../../public/img/project/gite.png"
@@ -76,6 +77,13 @@ Système de connexion avec un dashboard admin complet pour modifier dynamiquemen
         bgUrl: bgNaturo,
         target: "https://naturopathe-bmestivier-vosges.fr/",
         imgLibs: [jsLogo, htmlLogo, cssLogo]
-    },
+    }, {
+    title: "Sitre vitrine pour une entreprise de peinture",
+        description: "Site vitrine pour une entreprise de peinture intérieur et extérieur",
+        bgUrl: bgPeinture,
+        target: "https://stunning-genie-302ad6.netlify.app/",
+        imgLibs: [tailwindLogo, nextJSlogo,reactLogo]
+
+    }
 ]
 
