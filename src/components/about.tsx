@@ -89,7 +89,7 @@ const skillCards = [
     {
         title: "Formation",
         description:
-            "Actuellement en formation en Développement Web / Informatique, avec une spécialisation en technologies frontend.",
+            "Actuellement en formation en Concepteur d'application web",
         icon: "🎓",
     },
     {
