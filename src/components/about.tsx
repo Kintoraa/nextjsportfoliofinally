@@ -66,7 +66,7 @@ export default function About() {
                        <motion.p    initial={{ opacity: 0, y: 50 }}
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 1, ease: "easeOut" }}
-                                    viewport={{ once: true }}>Quand je ne suis pas devant mon éditeur de code, je suis souvent en train de jouer. Passionné de jeux vidéo depuis toujours, j’adore explorer de nouveaux univers, me plonger dans des ambiances bien travaillées et m’inspirer de tout ce que ce milieu peut apporter en termes de design, de logique ou d’interaction.</motion.p>
+                                    viewport={{ once: true }}>Quand je ne suis pas devant mon éditeur de code, je suis souvent sur mon vélo ou plongé dans ma veille technologique. Passionné de jeux vidéo compétitifs, j’aime particulièrement relever des défis et analyser les mécaniques de jeux pour m’améliorer. Le vélo est aussi une de mes passions, un moyen pour moi de rester en forme et d’explorer de nouveaux horizons. Ces activités, ainsi que mon intérêt constant pour les nouvelles technologies, nourrissent ma créativité et m'inspirent dans mon travail.</motion.p>
                    </div>
                </motion.div>
            </div>
