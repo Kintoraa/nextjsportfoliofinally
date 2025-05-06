@@ -27,7 +27,13 @@ export default function Contact() {
                      viewport={{ once: true }}
                      className={"bg-[#1e293b]/50 rounded-lg p-4 flex flex-col gap-4 xl:w-96"}>
                      <h2 className={"font-bold text-xl text-white"}>Informations de Contact</h2>
-                     <p className={"flex gap-2 items-center hover:text-blue-400"}><Mail className={" text-blue-400"} />email</p>
+                     <a
+                         href="mailto:zanini.alexis@outlook.fr"
+                         className="flex gap-2 items-center hover:text-blue-400"
+                     >
+                         <Mail className="text-blue-400" />
+                         zanini.alexis@outlook.fr
+                     </a>
                      <p className={"flex gap-2 items-center hover:text-blue-400"}><MapPin className={"text-blue-400 "} />Remiremont, Grand-est</p>
                  </motion.div>
                     <motion.div
